@@ -9,11 +9,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace Calendar.Data.Migrations
+namespace Calendar.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260420233232_AddBookingFields")]
-    partial class AddBookingFields
+    [Migration("20260422153103_AddExcludeConstraint")]
+    partial class AddExcludeConstraint
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
